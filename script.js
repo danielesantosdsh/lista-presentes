@@ -1,18 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
 
 
-    // MOSTRAR CHAVE PIX NO MODAL
+    const pix = document.getElementById("pix");
 
-    document.getElementById("pix").textContent = CONFIG.pix;
+    if (pix) {
+        pix.textContent = CONFIG.pix;
+    }
 
 
-
-    // FUNÇÃO PARA CRIAR OS CARDS
 
     function criarPresentes(categoria, idLista) {
 
 
         const lista = document.getElementById(idLista);
+
+
+        if (!lista) return;
+
 
 
         PRESENTES
@@ -27,15 +31,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
             card.innerHTML = `
 
-                <h3>
-                ${presente.nome}
-                </h3>
-
+                <h3>${presente.nome}</h3>
 
                 <p>
                 R$ ${presente.valor}
                 </p>
-
 
                 <button>
                 Presentear
@@ -56,9 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 <br><br>
 
-                <strong>
-                ${presente.nome}
-                </strong>
+                <strong>${presente.nome}</strong>
 
                 <br><br>
 
@@ -69,7 +67,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 </strong>
 
                 `;
-
 
 
                 document.getElementById("modal")
@@ -103,16 +100,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-    // FECHAR MODAL
+    const fechar = document.getElementById("fechar");
 
 
-    document.getElementById("fechar")
-    .onclick = () => {
+    if (fechar) {
 
-        document.getElementById("modal")
-        .style.display = "none";
+        fechar.onclick = () => {
 
-    };
+            document.getElementById("modal")
+            .style.display = "none";
+
+        };
+
+    }
 
 
 });
