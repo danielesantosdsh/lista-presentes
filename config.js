@@ -1,6 +1,6 @@
 const CONFIG = {
 
-    pix: "COLOQUE_SUA_CHAVE_PIX_AQUI"
+    pix: "pix@exemplo.com"
 
 };
 
