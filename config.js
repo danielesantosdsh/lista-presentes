@@ -1,6 +1,6 @@
 const CONFIG = {
 
-    pix: "Nova Chave Pix"
+    pix: "exemplo@lista.com"
 
 };
 
@@ -26,79 +26,79 @@ const PRESENTES = [
     {
         categoria: "cozinha",
         nome: "Abridor de Garrafas",
-        valor: 40
-    },
-
-    {
-        categoria: "cozinha",
-        nome: "Descanso de Panela",
         valor: 45
     },
 
     {
         categoria: "cozinha",
-        nome: "Ralador Multifuncional",
+        nome: "Descanso de Panela",
         valor: 50
+    },
+
+    {
+        categoria: "cozinha",
+        nome: "Ralador Multifuncional",
+        valor: 55
     },
 
     {
         categoria: "cozinha",
         nome: "Forma de Bolo",
-        valor: 50
+        valor: 60
     },
 
     {
         categoria: "cozinha",
         nome: "Escorredor de Talheres",
-        valor: 50
+        valor: 70
     },
 
     {
         categoria: "cozinha",
         nome: "Porta Guardanapos",
-        valor: 50
+        valor: 75
     },
 
     {
         categoria: "cozinha",
         nome: "Porta Talheres",
-        valor: 60
-    },
-
-    {
-        categoria: "cozinha",
-        nome: "Jogo Americano",
-        valor: 60
-    },
-
-    {
-        categoria: "cozinha",
-        nome: "Espremedor de Frutas",
-        valor: 60
-    },
-
-    {
-        categoria: "cozinha",
-        nome: "Kit Utensílios de Silicone",
-        valor: 70
-    },
-
-    {
-        categoria: "cozinha",
-        nome: "Balança de Cozinha",
-        valor: 70
-    },
-
-    {
-        categoria: "cozinha",
-        nome: "Organizador de Temperos",
         valor: 80
     },
 
     {
         categoria: "cozinha",
-        nome: "Chaleira",
+        nome: "Jogo Americano",
+        valor: 85
+    },
+
+    {
+        categoria: "cozinha",
+        nome: "Espremedor de Frutas",
+        valor: 90
+    },
+
+    {
+        categoria: "cozinha",
+        nome: "Kit Utensílios de Silicone",
+        valor: 95
+    },
+
+    {
+        categoria: "cozinha",
+        nome: "Balança de Cozinha",
         valor: 100
+    },
+
+    {
+        categoria: "cozinha",
+        nome: "Organizador de Temperos",
+        valor: 105
+    },
+
+    {
+        categoria: "cozinha",
+        nome: "Chaleira",
+        valor: 110
     },
 
     {
@@ -110,13 +110,13 @@ const PRESENTES = [
     {
         categoria: "cozinha",
         nome: "Lixeira de Cozinha",
-        valor: 100
+        valor: 120
     },
 
     {
         categoria: "cozinha",
         nome: "Potes para Mantimentos",
-        valor: 120
+        valor: 125
     },
 
     {
@@ -128,7 +128,7 @@ const PRESENTES = [
     {
         categoria: "cozinha",
         nome: "Conjunto de Taças",
-        valor: 150
+        valor: 180
     },
 
     {
@@ -140,25 +140,25 @@ const PRESENTES = [
     {
         categoria: "cozinha",
         nome: "Sanduicheira",
-        valor: 120
+        valor: 130
     },
 
     {
         categoria: "cozinha",
         nome: "Liquidificador",
-        valor: 200
+        valor: 140
     },
 
     {
         categoria: "cozinha",
         nome: "Grill Elétrico",
-        valor: 180
+        valor: 210
     },
 
     {
         categoria: "cozinha",
         nome: "Panela Elétrica",
-        valor: 250
+        valor: 240
     },
 
     {
@@ -176,79 +176,79 @@ const PRESENTES = [
     {
         categoria: "cozinha",
         nome: "Cafeteira Elétrica",
-        valor: 200
+        valor: 230
     },
 
     {
         categoria: "cozinha",
         nome: "Aparelho de Jantar",
-        valor: 300
+        valor: 310
     },
 
     {
         categoria: "cozinha",
         nome: "Travessas de Vidro",
-        valor: 120
+        valor: 135
     },
 
     {
         categoria: "cozinha",
         nome: "Assadeira Antiaderente",
-        valor: 100
+        valor: 145
     },
 
     {
         categoria: "cozinha",
         nome: "Tábua de Corte",
-        valor: 60
+        valor: 65
     },
 
     {
         categoria: "cozinha",
         nome: "Kit Organizadores de Geladeira",
-        valor: 120
+        valor: 155
     },
 
     {
         categoria: "cozinha",
         nome: "Fruteira",
-        valor: 100
+        valor: 165
     },
 
     {
         categoria: "cozinha",
         nome: "Escorredor de Louça",
-        valor: 150
+        valor: 160
     },
 
     {
         categoria: "cozinha",
         nome: "Torneira Gourmet",
-        valor: 300
+        valor: 315
     },
 
     {
         categoria: "cozinha",
         nome: "Jarra de Vidro",
-        valor: 50
+        valor: 30
     },
 
     {
         categoria: "cozinha",
         nome: "Conjunto de Xícaras",
-        valor: 120
+        valor: 170
     },
 
     {
         categoria: "cozinha",
         nome: "Kit Cozinha Completo",
-        valor: 300
+        valor: 330
     },
 
     {
         categoria: "cozinha",
         nome: "Robô Aspirador",
-        valor: 700
+        valor: 600
     },
         // =====================
     // QUARTO - 30 ITENS
@@ -257,169 +257,169 @@ const PRESENTES = [
     {
         categoria: "quarto",
         nome: "Travesseiros",
-        valor: 80
+        valor: 82
     },
 
     {
         categoria: "quarto",
         nome: "Jogo de Lençol",
-        valor: 120
+        valor: 127
     },
 
     {
         categoria: "quarto",
         nome: "Cobertor",
-        valor: 150
+        valor: 152
     },
 
     {
         categoria: "quarto",
         nome: "Edredom",
-        valor: 200
+        valor: 207
     },
 
     {
         categoria: "quarto",
-        nome: "Colcha Decorativa",
-        valor: 180
+        nome: "Colcha",
+        valor: 182
     },
 
     {
         categoria: "quarto",
-        nome: "Almofadas Decorativas",
-        valor: 100
+        nome: "Almofadas",
+        valor: 102
     },
 
     {
         categoria: "quarto",
         nome: "Cortina para Quarto",
-        valor: 200
+        valor: 202
     },
 
     {
         categoria: "quarto",
         nome: "Tapete para Quarto",
-        valor: 150
+        valor: 157
     },
 
     {
         categoria: "quarto",
         nome: "Cabides",
-        valor: 60
+        valor: 62
     },
 
     {
         categoria: "quarto",
         nome: "Organizadores de Guarda-Roupa",
-        valor: 80
+        valor: 87
     },
 
     {
         categoria: "quarto",
         nome: "Manta para Cama",
-        valor: 120
+        valor: 122
     },
 
     {
         categoria: "quarto",
         nome: "Abajur",
-        valor: 100
+        valor: 107
     },
 
     {
         categoria: "quarto",
-        nome: "Luminária Decorativa",
-        valor: 150
+        nome: "Luminária",
+        valor: 162
     },
 
     {
         categoria: "quarto",
-        nome: "Espelho Decorativo",
-        valor: 180
+        nome: "Espelho",
+        valor: 187
     },
 
     {
         categoria: "quarto",
         nome: "Cesto Organizador",
-        valor: 80
+        valor: 92
     },
 
     {
         categoria: "quarto",
         nome: "Porta Joias",
-        valor: 70
+        valor: 72
     },
 
     {
         categoria: "quarto",
-        nome: "Relógio Decorativo",
-        valor: 90
+        nome: "Relógio",
+        valor: 97
     },
 
     {
         categoria: "quarto",
         nome: "Criado-Mudo",
-        valor: 250
+        valor: 252
     },
 
     {
         categoria: "quarto",
         nome: "Sapateira",
-        valor: 220
+        valor: 222
     },
 
     {
         categoria: "quarto",
         nome: "Kit Organizadores",
-        valor: 150
+        valor: 167
     },
 
     {
         categoria: "quarto",
         nome: "Aromatizador de Ambiente",
-        valor: 80
+        valor: 77
     },
 
     {
         categoria: "quarto",
         nome: "Quadro Decorativo",
-        valor: 100
+        valor: 112
     },
 
     {
         categoria: "quarto",
         nome: "Ventilador",
-        valor: 200
+        valor: 212
     },
 
     {
         categoria: "quarto",
         nome: "Ferro de Passar",
-        valor: 120
+        valor: 132
     },
 
     {
         categoria: "quarto",
         nome: "Tábua de Passar",
-        valor: 150
+        valor: 172
     },
 
     {
         categoria: "quarto",
         nome: "Caixa Organizadora Grande",
-        valor: 90
+        valor: 67
     },
 
     {
         categoria: "quarto",
         nome: "Roupa de Cama Premium",
-        valor: 300
+        valor: 307
     },
 
     {
         categoria: "quarto",
         nome: "Cômoda",
-        valor: 450
+        valor: 457
     },
 
     {
@@ -440,121 +440,121 @@ const PRESENTES = [
     {
         categoria: "sala",
         nome: "Porta Retrato",
-        valor: 50
+        valor: 54
     },
 
     {
         categoria: "sala",
         nome: "Vaso Decorativo",
-        valor: 80
+        valor: 84
     },
 
     {
         categoria: "sala",
         nome: "Almofadas para Sofá",
-        valor: 100
+        valor: 108
     },
 
     {
         categoria: "sala",
-        nome: "Plantas Decorativas",
-        valor: 100
+        nome: "Plantas",
+        valor: 104
     },
 
     {
         categoria: "sala",
         nome: "Manta para Sofá",
-        valor: 120
+        valor: 124
     },
 
     {
         categoria: "sala",
         nome: "Quadros Decorativos",
-        valor: 150
+        valor: 154
     },
 
     {
         categoria: "sala",
         nome: "Bandeja Decorativa",
-        valor: 80
+        valor: 88
     },
 
     {
         categoria: "sala",
         nome: "Relógio de Parede",
-        valor: 100
+        valor: 98
     },
 
     {
         categoria: "sala",
-        nome: "Puff Decorativo",
-        valor: 180
+        nome: "Puff",
+        valor: 184
     },
 
     {
         categoria: "sala",
         nome: "Kit Decoração Sala",
-        valor: 200
+        valor: 204
     },
 
     {
         categoria: "sala",
         nome: "Luminária de Chão",
-        valor: 250
+        valor: 258
     },
 
     {
         categoria: "sala",
         nome: "Cortina para Sala",
-        valor: 250
+        valor: 254
     },
 
     {
         categoria: "sala",
         nome: "Tapete para Sala",
-        valor: 300
+        valor: 308
     },
 
     {
         categoria: "sala",
         nome: "Espelho Grande",
-        valor: 300
+        valor: 304
     },
 
     {
         categoria: "sala",
         nome: "Mesa de Centro",
-        valor: 350
+        valor: 354
     },
 
     {
         categoria: "sala",
-        nome: "Aparador",
-        valor: 400
+        nome: "Aspirador",
+        valor: 404
     },
 
     {
         categoria: "sala",
         nome: "Rack para TV",
-        valor: 500
+        valor: 508
     },
 
     {
         categoria: "sala",
         nome: "Painel para TV",
-        valor: 600
+        valor: 608
     },
 
     {
         categoria: "sala",
-        nome: "Poltrona Decorativa",
-        valor: 500
+        nome: "Poltrona",
+        valor: 504
     },
 
     {
         categoria: "sala",
         nome: "Sofá",
-        valor: 1200
+        valor: 1204
     },
         // =====================
     // BANHEIRO - 10 ITENS
@@ -563,61 +563,61 @@ const PRESENTES = [
     {
         categoria: "banheiro",
         nome: "Kit Toalhas",
-        valor: 150
+        valor: 153
     },
 
     {
         categoria: "banheiro",
         nome: "Tapete de Banheiro",
-        valor: 60
+        valor: 66
     },
 
     {
         categoria: "banheiro",
         nome: "Porta Escovas",
-        valor: 50
+        valor: 53
     },
 
     {
         categoria: "banheiro",
         nome: "Dispenser de Sabonete",
-        valor: 60
+        valor: 63
     },
 
     {
         categoria: "banheiro",
         nome: "Cesto para Roupa",
-        valor: 120
+        valor: 136
     },
 
     {
         categoria: "banheiro",
         nome: "Espelho para Banheiro",
-        valor: 200
+        valor: 253
     },
 
     {
         categoria: "banheiro",
         nome: "Organizador de Banheiro",
-        valor: 100
+        valor: 103
     },
 
     {
         categoria: "banheiro",
         nome: "Kit Higiene",
-        valor: 120
+        valor: 123
     },
 
     {
         categoria: "banheiro",
         nome: "Prateleira para Banheiro",
-        valor: 150
+        valor: 256
     },
 
     {
         categoria: "banheiro",
         nome: "Armário para Banheiro",
-        valor: 400
+        valor: 406
     }
 
 
